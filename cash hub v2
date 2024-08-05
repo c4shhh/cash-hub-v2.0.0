@@ -58,3 +58,21 @@ local Button = MainTab:CreateButton({
    end,
 })
 
+local Button = MainTab:CreateButton({
+   Name = "Arsenal Script 2",
+   Interact = 'Click Me Nigga',
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/c4shhh/arsenal/main/arbenal"))()
+   end,
+})
+
+local OtherTab = Window:CreateTab("Phantom Forces", 18378315812) -- Title, Image
+
+local Button = OtherTab:CreateButton({
+   Name = "Phantom Forces",
+   Interact = 'Click Me Nigga',
+   Callback = function()
+  loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-unfair-Hub-3936"))()
+   end,
+})
+
